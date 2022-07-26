@@ -46,18 +46,18 @@ function App() {
       <Navbar mode={mode} toggleMode={toggleMode} />
       <Alert alert={alert} />
      <div className="container my-3">
-        {/* <Switch>
+        <Switch>
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/"> */}
+          <Route path="/">
               <TextEedit
                 showAlert={showAlert}
                 heading="Enter text to analyze"
                 mode={mode}
               />
-          {/* </Route>
-         </Switch> */}
+          </Route>
+         </Switch>
       </div>
       </Router>
     </>
